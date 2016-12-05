@@ -36,18 +36,7 @@
         <filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
         <init-param>
             <param-name>applicationClassName</param-name>
-            <param-value>org.apache.directory.fortress.web.HomePageApplication</param-value>
-        </init-param>
-    </filter>
-
-    <!-- The WicketSesionFilter can be used to provide thread local access to servlets/ JSPs/ etc -->
-    <filter>
-        <filter-name>WicketSessionFilter</filter-name>
-        <filter-class>org.apache.wicket.protocol.http.servlet.WicketSessionFilter</filter-class>
-        <init-param>
-            <param-name>filterName</param-name>
-            <!-- expose the session of the input example app -->
-            <param-value>FormInputApplication</param-value>
+            <param-value>org.apache.directory.fortress.web.bootstrap.app.FortressCommanderApp</param-value>
         </init-param>
     </filter>
 

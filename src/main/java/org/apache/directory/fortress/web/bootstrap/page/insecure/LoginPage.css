@@ -1,0 +1,66 @@
+/*
+ *   Licensed to the Apache Software Foundation (ASF) under one
+ *   or more contributor license agreements.  See the NOTICE file
+ *   distributed with this work for additional information
+ *   regarding copyright ownership.  The ASF licenses this file
+ *   to you under the Apache License, Version 2.0 (the
+ *   "License"); you may not use this file except in compliance
+ *   with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing,
+ *   software distributed under the License is distributed on an
+ *   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *   KIND, either express or implied.  See the License for the
+ *   specific language governing permissions and limitations
+ *   under the License.
+ *
+ */
+body.login-image-1 {
+	background: url(../images/fortress1.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body.login-image-2 {
+	background: url(../images/fortress2.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body.login-image-3 {
+	background: url(../images/fortress3.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+}
+.card-block.title {
+	background: transparent !important;
+	border: none !important;
+	color: white;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 2rem;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.card-block.body {
+	background-color: rgba(255,255,255,.5) !important;
+	border: none !important;
+	border-radius: 3px !important;
+	color: white;
+}
+.card,
+.card-footer {
+	background-color: rgba(255,255,255,0) !important;
+	border: none !important;
+	color: white;
+	margin-top: 0;
+	padding-top: 0;
+}
