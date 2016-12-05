@@ -23,20 +23,6 @@
 <web-app>
     <display-name>Fortress Web Admin</display-name>
 
-    <servlet>
-        <servlet-name>wicket</servlet-name>
-        <servlet-class>org.apache.wicket.protocol.http.WicketServlet</servlet-class>
-        <init-param>
-            <param-name>applicationFactoryClassName</param-name>
-            <param-value>org.apache.wicket.spring.SpringWebApplicationFactory</param-value>
-        </init-param>
-        <init-param>
-            <param-name>applicationBean</param-name>
-            <param-value>wicketApplication</param-value>
-        </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:applicationContext.xml</param-value>
